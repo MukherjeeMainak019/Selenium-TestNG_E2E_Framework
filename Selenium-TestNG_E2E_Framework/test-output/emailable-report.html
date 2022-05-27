@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">75,938</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testcases.OrangeHRM_Sprint2</td><td><a href="#m0">int_browser_and_launch_URL</a></td><td rowspan="1">1653679444279</td><td rowspan="1">1478</td></tr><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.OrangeHRM_Sprint1</td><td><a href="#m1">to_validate_dashboard_quicklaunch_text</a></td><td rowspan="1">1653679428432</td><td rowspan="1">193</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testcases.OrangeHRM_Sprint2</td><td><a href="#m2">teardown</a></td><td rowspan="1">1653679445779</td><td rowspan="1">-1653679445779</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.OrangeHRM_Sprint2</td><td><a href="#m3">validate_employee_added_successfully_by_readingconfigfile</a></td><td rowspan="1">1653679445773</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.OrangeHRM_Sprint1</td><td><a href="#m4">to_validate_successful_login</a></td><td rowspan="1">1653679439802</td><td rowspan="1">495</td></tr><tr class="passedodd"><td rowspan="1">testcases.OrangeHRM_Sprint3</td><td><a href="#m5">validate_employee_added_successfully_by_readingExcelfile</a></td><td rowspan="1">1653679462263</td><td rowspan="1">15943</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testcases.OrangeHRM_Sprint2#int_browser_and_launch_URL</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.
+  (chrome not reachable)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;Mainaks-MacBook-Air.local&apos;, ip: &apos;2400:3ce0:0:228a:7dd3:b62e:d65:806e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.3&apos;, java.version: &apos;16.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000104c6cd19 chromedriver + 5197081
+1   chromedriver                        0x0000000104bfab23 chromedriver + 4729635
+2   chromedriver                        0x00000001047d82b8 chromedriver + 393912
+3   chromedriver                        0x00000001047fae5e chromedriver + 536158
+4   chromedriver                        0x00000001047f68a6 chromedriver + 518310
+5   chromedriver                        0x00000001048304ba chromedriver + 754874
+6   chromedriver                        0x000000010482a6f3 chromedriver + 730867
+7   chromedriver                        0x0000000104800a49 chromedriver + 559689
+8   chromedriver                        0x0000000104801a75 chromedriver + 563829
+9   chromedriver                        0x0000000104c3ebdd chromedriver + 5008349
+10  chromedriver                        0x0000000104c43b64 chromedriver + 5028708
+11  chromedriver                        0x0000000104c48bcf chromedriver + 5049295
+12  chromedriver                        0x0000000104c447ca chromedriver + 5031882
+13  chromedriver                        0x0000000104c1e59f chromedriver + 4875679
+14  chromedriver                        0x0000000104c5e388 chromedriver + 5137288
+15  chromedriver                        0x0000000104c5e50f chromedriver + 5137679
+16  chromedriver                        0x0000000104c74085 chromedriver + 5226629
+17  libsystem_pthread.dylib             0x00007ff8139d14e1 _pthread_start + 125
+18  libsystem_pthread.dylib             0x00007ff8139ccf6b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
+	at resources.BaseClass.int_browser_and_launch_URL(BaseClass.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.OrangeHRM_Sprint1#to_validate_dashboard_quicklaunch_text</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Quick Launc] but found [Quick Launch]
+	at testcases.OrangeHRM_Sprint1.to_validate_dashboard_quicklaunch_text(OrangeHRM_Sprint1.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.OrangeHRM_Sprint2#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.OrangeHRM_Sprint2#validate_employee_added_successfully_by_readingconfigfile</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.
+  (chrome not reachable)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;Mainaks-MacBook-Air.local&apos;, ip: &apos;2400:3ce0:0:228a:7dd3:b62e:d65:806e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.3&apos;, java.version: &apos;16.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000104c6cd19 chromedriver + 5197081
+1   chromedriver                        0x0000000104bfab23 chromedriver + 4729635
+2   chromedriver                        0x00000001047d82b8 chromedriver + 393912
+3   chromedriver                        0x00000001047fae5e chromedriver + 536158
+4   chromedriver                        0x00000001047f68a6 chromedriver + 518310
+5   chromedriver                        0x00000001048304ba chromedriver + 754874
+6   chromedriver                        0x000000010482a6f3 chromedriver + 730867
+7   chromedriver                        0x0000000104800a49 chromedriver + 559689
+8   chromedriver                        0x0000000104801a75 chromedriver + 563829
+9   chromedriver                        0x0000000104c3ebdd chromedriver + 5008349
+10  chromedriver                        0x0000000104c43b64 chromedriver + 5028708
+11  chromedriver                        0x0000000104c48bcf chromedriver + 5049295
+12  chromedriver                        0x0000000104c447ca chromedriver + 5031882
+13  chromedriver                        0x0000000104c1e59f chromedriver + 4875679
+14  chromedriver                        0x0000000104c5e388 chromedriver + 5137288
+15  chromedriver                        0x0000000104c5e50f chromedriver + 5137679
+16  chromedriver                        0x0000000104c74085 chromedriver + 5226629
+17  libsystem_pthread.dylib             0x00007ff8139d14e1 _pthread_start + 125
+18  libsystem_pthread.dylib             0x00007ff8139ccf6b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
+	at resources.BaseClass.int_browser_and_launch_URL(BaseClass.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.OrangeHRM_Sprint1#to_validate_successful_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.OrangeHRM_Sprint3#validate_employee_added_successfully_by_readingExcelfile</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

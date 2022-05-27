@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.Listerner"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.OrangeHRM_Sprint1">
+        <methods>
+          <include name="int_browser_and_launch_URL"/>
+          <include name="teardown"/>
+          <include name="read_Config_properties"/>
+          <include name="init"/>
+          <include name="to_validate_dashboard_quicklaunch_text"/>
+        </methods>
+      </class> <!-- testcases.OrangeHRM_Sprint1 -->
+      <class name="testcases.OrangeHRM_Sprint2">
+        <methods>
+          <include name="int_browser_and_launch_URL"/>
+          <include name="teardown"/>
+          <include name="read_Config_properties"/>
+          <include name="init"/>
+          <include name="validate_employee_added_successfully_by_readingconfigfile"/>
+        </methods>
+      </class> <!-- testcases.OrangeHRM_Sprint2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
